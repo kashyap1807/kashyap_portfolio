@@ -6,13 +6,16 @@ function Experience() {
     <Row style={{ justifyContent: "center", paddingBottom: "50px" }}>
       <Col xs={7} md={5} className="tech-icons">
         <h2>
-          <a href="https://byteparity.com/">
-            <strong className="purple">ByteParity</strong>
+          <a href="https://www.tcs.com/">
+            <strong className="purple">TCS Campus Ambassador</strong>
           </a>
         </h2>
 
-        <h6>• Explore Frontend Technologies like HTML, CSS, JS & ReactJS.</h6>
-        <h6>• Created Restaurant Menu card’s using mapping method.</h6>
+        <h6>
+          • Promoted TCS events, programs, and initiatives to students & Shared
+          information and updates provided by TCS.
+        </h6>
+        <h6>• Acted as a bridge between students and TCS.</h6>
       </Col>
 
       <Col xs={7} md={5} className="tech-icons">
