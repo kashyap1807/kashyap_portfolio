@@ -6,6 +6,8 @@ import mec from "../../Assets/Projects/mecommerce.png";
 import carr from "../../Assets/Projects/carent.png";
 import blog from "../../Assets/Projects/blog.png";
 import img from "../../Assets/Projects/imagecomp.png";
+import pb from "../../Assets/Projects/phonebook.png";
+import em from "../../Assets/Projects/employeeMaster.png"
 
 function Projects() {
   return (
@@ -17,6 +19,28 @@ function Projects() {
         </h1>
         <p style={{ color: "white" }}>These are a few projects I've worked.</p>
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={pb}
+              isBlog={false}
+              title="PhoneBook"
+              description="• Developed contacts management app using ASP.NET, MVC & Angular 16, Test it using xUnit and Jasmin Karma. 
+•        Implemented features such as CRUD operation, Searching, Sorting, Pagination, Authentication and Authorization. Profile Management, use store procedure for reports.
+"
+              ghLink="https://github.com/kashyap1807/PhonebookAppMain"
+            />
+          </Col>
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={em}
+              isBlog={false}
+              title="EmployeeMaster"
+              description="• Worked on update employee component and UI Designing part of application.
+•         Set up business logic in API for basic on Salary. Check all API & front-end validations. 
+"
+              ghLink="https://github.com/kashyap1807/CivicaEmployeeMaster"
+            />
+          </Col>
           <Col md={4} className="project-card">
             <ProjectCard
               imgPath={mec}
@@ -35,7 +59,6 @@ function Projects() {
               title="CarRent"
               description="CarRent is car-rental system where user rent a car within a time limit.Build an Admin panel who manage whole cars & Consumer can book the cars. use Stripe for payment. Here also we use MERN technology."
               ghLink="https://github.com/kashyap1807/CarRent"
-              // demoLink="https://blogs.soumya-jit.tech/"
             />
           </Col>
 
@@ -46,7 +69,6 @@ function Projects() {
               title="KBlog"
               description="KBlog is a simple blog-website. where you can write, edit, delete your blogs & also publish it. This web app build using React.js."
               ghLink="https://github.com/kashyap1807/Blog_Website"
-              // demoLink="https://editor.soumya-jit.tech/"
             />
           </Col>
 
@@ -57,7 +79,6 @@ function Projects() {
               title="Image Compressor"
               description="The Image Compressor Website is a powerful and user-friendly online tool built using React and JSX for efficiently reducing the file size of images. With a sleek and intuitive interface."
               ghLink="https://github.com/kashyap1807/Image_compressor"
-              // demoLink="https://plant49-ai.herokuapp.com/"
             />
           </Col>
         </Row>

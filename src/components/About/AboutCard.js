@@ -12,8 +12,11 @@ function AboutCard() {
             from <span className="purple"> Gujarat, India.</span>
             <br />
             <br />
-            🎓 I am a final year student pursuing an Informatio Technoogy at BVM
-            College, Anand.
+            👨🏻‍💻 Jr. Web Developer At <span className="purple">Prudent. </span>
+            <br />
+            <br />
+            🎓 I Completed B.Tech Informatio Technoogy from{" "}
+            <span className="purple">BVM </span> College, Anand.
             <br />
             <br />
             🌱 Learning is a continuous journey for me. I'm dedicated to
@@ -35,10 +38,6 @@ function AboutCard() {
             </li>
           </ul>
           <br />
-          <p style={{ color: "rgb(155 126 172)" }}>
-            "Always Learn from Last Mistake !"{" "}
-          </p>
-          <footer className="blockquote-footer">Kashyap</footer>
         </blockquote>
       </Card.Body>
     </Card>

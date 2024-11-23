@@ -6,6 +6,32 @@ function Experience() {
     <Row style={{ justifyContent: "center", paddingBottom: "50px" }}>
       <Col xs={7} md={5} className="tech-icons">
         <h2>
+          <a href="https://www.prudentcorporate.com/">
+            <strong className="purple">Prudent</strong>
+          </a>
+        </h2>
+
+        <h6>
+          • Collaborated on live projects like (FundzBazar, PrudentPBD) in agile
+          environment, contributing to development, design & testing. Maintain
+          application features using .NET Core, Angular, SSMS & Bonobo Git.
+        </h6>
+      </Col>
+      <Col xs={7} md={5} className="tech-icons">
+        <h2>
+          <a href="https://www.civica.com/">
+            <strong className="purple">Civica </strong>
+          </a>
+        </h2>
+
+        <h6>
+          • Enhanced user experience by developed and maintained web
+          applications using ASP.NET, MVC, Angular, SSMS & Azure.
+        </h6>
+        
+      </Col>
+      <Col xs={7} md={5} className="tech-icons">
+        <h2>
           <a href="https://www.tcs.com/">
             <strong className="purple">TCS Campus Ambassador</strong>
           </a>

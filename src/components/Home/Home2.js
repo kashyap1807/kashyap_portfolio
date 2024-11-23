@@ -22,16 +22,17 @@ function Home2() {
               I'm a passionate developer with a penchant for crafting
               exceptional digital experiences.
               <br />
-              <br />I thrive in the
+              <br />
+              I've expanded my expertise into
               <i>
-                <b className="purple"> MERN. </b>
+                <b className="purple"> .NET Technologies. </b>
               </i>
               <br />
               <br />
               Enhancing my proficiency in &nbsp;
               <i>
                 <b className="purple">
-                  React.js, Node.js, Express.js, and MongoDB{" "}
+                  .NET Core, MVC, Angular, TypeScript & SSMS.{" "}
                 </b>
               </i>
               <br />
