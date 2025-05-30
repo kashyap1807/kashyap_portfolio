@@ -1,0 +1,23 @@
+.loading-skeleton {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #1b1b1b;
+}
+
+.skeleton-animation {
+  width: 50px;
+  height: 50px;
+  border: 3px solid #f8f9fa;
+  border-radius: 50%;
+  border-top-color: #c770f0;
+  animation: spin 1s ease-in-out infinite;
+}
+
+@keyframes spin {
+  to {
+    transform: rotate(360deg);
+  }
+} 
