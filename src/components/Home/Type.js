@@ -7,8 +7,10 @@ function Type() {
       options={{
         strings: [
           "Full Stack Developer",
-          ".Net Core Developer",
-          "Angular Developer",
+          "Azure . . .",
+          ".Net Core . . .",
+          "Angular . . .",
+          "SQL . . ."
         ],
         autoStart: true,
         loop: true,

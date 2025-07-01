@@ -1,11 +1,8 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
-import myImg from "../../Assets/avatar.svg";
-import Tilt from "react-parallax-tilt";
 import {
   AiFillGithub,
   AiOutlineTwitter,
-  AiFillInstagram,
 } from "react-icons/ai";
 import { FaLinkedinIn } from "react-icons/fa";
 
@@ -14,7 +11,7 @@ function Home2() {
     <Container fluid className="home-about-section" id="about">
       <Container>
         <Row>
-          <Col md={8} className="home-about-description">
+          <Col md={12} className="home-about-description">
             <h1 style={{ fontSize: "2.6em" }}>
               LET ME <span className="purple"> INTRODUCE </span> MYSELF
             </h1>
@@ -25,25 +22,25 @@ function Home2() {
               <br />
               I've expanded my expertise into
               <i>
-                <b className="purple"> .NET Technologies. </b>
+                <b className="purple"> Full stack Development. </b>
               </i>
               <br />
               <br />
               Enhancing my proficiency in &nbsp;
               <i>
                 <b className="purple">
-                  .NET Core, MVC, Angular, TypeScript & SSMS.{" "}
+                  Azure, .NET Core, MVC, Angular, TypeScript & SSMS.{" "}
                 </b>
               </i>
               <br />
               <br />
             </p>
           </Col>
-          <Col md={4} className="myAvtar">
+          {/* <Col md={4} className="myAvtar">
             <Tilt>
               <img src={myImg} className="img-fluid" alt="avatar" />
             </Tilt>
-          </Col>
+          </Col> */}
         </Row>
         <Row>
           <Col md={12} className="home-about-social">

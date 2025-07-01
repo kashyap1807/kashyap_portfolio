@@ -269,7 +269,7 @@ button:focus {
 .home-content {
   padding: 9rem 0 2rem !important;
   color: whitesmoke;
-  text-align: left;
+  text-align: center;
   position: relative;
   z-index: 2;
 }
@@ -337,7 +337,7 @@ button:focus {
 .home-about-body {
   padding-top: 50px;
   font-size: 1.2em !important;
-  text-align: left;
+  text-align: center;
 }
 
 .home-about-social {
@@ -746,106 +746,283 @@ button:focus {
   display: none !important;
 }
 
-.cyan-background-container {
+.floating-tech-icon {
   position: absolute;
-  top: 0;
-  left: 0;
+  opacity: 0.50;
+  filter: blur(0.5px);
+  animation: techFloat 20s ease-in-out infinite;
+  transition: all 0.3s ease;
+}
+
+.floating-tech-icon:hover {
+  opacity: 0.4;
+  filter: blur(0px);
+  transform: scale(1.1);
+}
+
+.floating-tech-icon img {
   width: 100%;
   height: 100%;
-  overflow: hidden;
-  z-index: 1;
+  object-fit: contain;
 }
 
-.shape {
-  position: absolute;
-  border-radius: 50%;
-  filter: blur(1px);
-  animation: float 15s ease-in-out infinite;
+/* Individual tech icon positioning and sizing */
+.tech-icon-1 {
+  width: 120px;
+  height: 120px;
+  top: 10%;
+  left: 5%;
+  animation-delay: 0s;
 }
 
-.shape-2 {
-  width: 300px;
-  height: 300px;
-  background: radial-gradient(circle, rgba(0, 188, 212, 0.7) 0%, rgba(0, 172, 193, 0.5) 50%, rgba(0, 151, 167, 0.3) 100%);
-  top: 100px;
-  right: -100px;
-  animation-delay: -5s;
-}
-
-.shape-3 {
-  width: 250px;
-  height: 250px;
-  background: radial-gradient(circle, rgba(38, 198, 218, 0.6) 0%, rgba(0, 172, 193, 0.4) 50%, rgba(0, 131, 143, 0.2) 100%);
-  bottom: 200px;
-  left: 50px;
-  animation-delay: -10s;
-}
-
-.shape-4 {
-  width: 180px;
-  height: 180px;
-  background: radial-gradient(circle, rgba(77, 208, 225, 0.5) 0%, rgba(0, 172, 193, 0.3) 50%, rgba(0, 131, 143, 0.1) 100%);
-  top: 60%;
-  right: 20%;
+.tech-icon-2 {
+  width: 80px;
+  height: 80px;
+  top: 25%;
+  right: 15%;
   animation-delay: -3s;
 }
 
-.shape-5 {
-  width: 350px;
-  height: 350px;
-  background: radial-gradient(circle, rgba(0, 172, 193, 0.4) 0%, rgba(0, 131, 143, 0.3) 50%, rgba(0, 96, 100, 0.2) 100%);
-  bottom: -80px;
-  right: -120px;
-  animation-delay: -8s;
-}
-
-.shape-6 {
-  width: 120px;
-  height: 120px;
-  background: radial-gradient(circle, rgba(0, 229, 255, 0.6) 0%, rgba(0, 188, 212, 0.4) 50%, rgba(0, 172, 193, 0.2) 100%);
-  top: 30%;
-  left: 60%;
-  animation-delay: -12s;
-}
-
-.shape-7 {
-  width: 200px;
-  height: 200px;
-  background: radial-gradient(circle, rgba(0, 172, 193, 0.5) 0%, rgba(0, 131, 143, 0.3) 50%, rgba(0, 96, 100, 0.1) 100%);
-  top: 20%;
-  left: 20%;
+.tech-icon-3 {
+  width: 100px;
+  height: 100px;
+  top: 45%;
+  left: 15%;
   animation-delay: -6s;
 }
 
-.floating-dots {
-  position: absolute;
-  width: 100%;
-  height: 100%;
+.tech-icon-4 {
+  width: 90px;
+  height: 90px;
+  top: 60%;
+  right: 25%;
+  animation-delay: -9s;
+}
+
+.tech-icon-5 {
+  width: 110px;
+  height: 110px;
+  bottom: 20%;
+  left: 8%;
+  animation-delay: -12s;
+}
+
+.tech-icon-6 {
+  width: 70px;
+  height: 70px;
+  bottom: 30%;
+  right: 10%;
+  animation-delay: -15s;
+}
+
+.tech-icon-7 {
+  width: 95px;
+  height: 95px;
+  top: 15%;
+  left: 45%;
+  animation-delay: -18s;
+}
+
+.tech-icon-8 {
+  width: 85px;
+  height: 85px;
+  bottom: 40%;
+  right: 40%;
+  animation-delay: -21s;
+}
+
+/* New additional tech icons */
+.tech-icon-9 {
+  width: 75px;
+  height: 75px;
+  top: 35%;
+  left: 75%;
+  animation-delay: -24s;
+}
+
+.tech-icon-10 {
+  width: 65px;
+  height: 65px;
+  top: 80%;
+  left: 25%;
+  animation-delay: -27s;
+}
+
+.tech-icon-11 {
+  width: 90px;
+  height: 90px;
+  top: 5%;
+  right: 30%;
+  animation-delay: -30s;
+}
+
+.tech-icon-12 {
+  width: 55px;
+  height: 55px;
+  bottom: 15%;
+  left: 65%;
+  animation-delay: -33s;
+}
+
+.tech-icon-13 {
+  width: 85px;
+  height: 85px;
+  top: 70%;
+  right: 5%;
+  animation-delay: -36s;
+}
+
+.tech-icon-14 {
+  width: 95px;
+  height: 95px;
+  bottom: 50%;
+  left: 35%;
+  animation-delay: -39s;
+}
+
+.tech-icon-15 {
+  width: 70px;
+  height: 70px;
+  top: 50%;
+  right: 50%;
+  animation-delay: -42s;
+}
+
+.tech-icon-16 {
+  width: 80px;
+  height: 80px;
+  bottom: 10%;
+  right: 65%;
+  animation-delay: -45s;
+}
+
+/* Additional smaller icons for more dynamic effect */
+.tech-icon-small-1 {
+  width: 45px;
+  height: 45px;
+  top: 30%;
+  left: 85%;
+  animation-delay: -2s;
+}
+
+.tech-icon-small-2 {
+  width: 50px;
+  height: 50px;
+  top: 75%;
+  left: 80%;
+  animation-delay: -5s;
+}
+
+.tech-icon-small-3 {
+  width: 40px;
+  height: 40px;
+  top: 20%;
+  left: 65%;
+  animation-delay: -8s;
+}
+
+.tech-icon-small-4 {
+  width: 55px;
+  height: 55px;
+  bottom: 35%;
+  left: 90%;
+  animation-delay: -11s;
+}
+
+.tech-icon-small-5 {
+  width: 45px;
+  height: 45px;
+  top: 85%;
+  right: 85%;
+  animation-delay: -14s;
+}
+
+.tech-icon-small-6 {
+  width: 50px;
+  height: 50px;
+  top: 10%;
+  left: 80%;
+  animation-delay: -17s;
+}
+
+.tech-icon-small-7 {
+  width: 40px;
+  height: 40px;
+  bottom: 60%;
+  right: 80%;
+  animation-delay: -20s;
+}
+
+.tech-icon-small-8 {
+  width: 45px;
+  height: 45px;
+  top: 40%;
+  left: 95%;
+  animation-delay: -23s;
 }
 
 /* Animations */
-@keyframes float {
+@keyframes techFloat {
   0%, 100% {
-    transform: translateY(0px) translateX(0px) scale(1);
+    transform: translateY(0px) translateX(0px) rotate(0deg) scale(1);
   }
   25% {
-    transform: translateY(-20px) translateX(10px) scale(1.05);
+    transform: translateY(-30px) translateX(15px) rotate(5deg) scale(1.05);
   }
   50% {
-    transform: translateY(-10px) translateX(-15px) scale(0.95);
+    transform: translateY(-15px) translateX(-20px) rotate(-3deg) scale(0.95);
   }
   75% {
-    transform: translateY(-30px) translateX(5px) scale(1.02);
+    transform: translateY(-40px) translateX(10px) rotate(7deg) scale(1.02);
   }
 }
 
 @keyframes twinkle {
   0%, 100% {
-    opacity: 0.3;
+    opacity: 0.2;
     transform: scale(1);
   }
   50% {
-    opacity: 1;
-    transform: scale(1.2);
+    opacity: 0.8;
+    transform: scale(1.3);
+  }
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .floating-tech-icon {
+    opacity: 0.08;
+  }
+  
+  .tech-icon-1,
+  .tech-icon-2,
+  .tech-icon-3,
+  .tech-icon-4,
+  .tech-icon-5,
+  .tech-icon-6,
+  .tech-icon-7,
+  .tech-icon-8,
+  .tech-icon-9,
+  .tech-icon-10,
+  .tech-icon-11,
+  .tech-icon-12,
+  .tech-icon-13,
+  .tech-icon-14,
+  .tech-icon-15,
+  .tech-icon-16 {
+    width: 50px;
+    height: 50px;
+  }
+  
+  .tech-icon-small-1,
+  .tech-icon-small-2,
+  .tech-icon-small-3,
+  .tech-icon-small-4,
+  .tech-icon-small-5,
+  .tech-icon-small-6,
+  .tech-icon-small-7,
+  .tech-icon-small-8 {
+    width: 25px;
+    height: 25px;
   }
 }
