@@ -3,7 +3,7 @@ import { Container, Row, Col } from "react-bootstrap";
 import Particle from "../Particle";
 import Techstack from "./Techstack";
 import Aboutcard from "./AboutCard";
-import laptopImg from "../../Assets/about.png";
+// import laptopImg from "../../Assets/about.png";
 import Toolstack from "./Toolstack";
 import Experience from "./Experience";
 
@@ -14,7 +14,7 @@ function About() {
       <Container>
         <Row style={{ justifyContent: "center",  }}>
           <Col
-            md={7}
+            md={8}
             style={{
               justifyContent: "center",
               paddingTop: "30px",
@@ -31,7 +31,7 @@ function About() {
             style={{ paddingTop: "120px", paddingBottom: "50px" }}
             className="about-img"
           >
-            <img src={laptopImg} alt="about" className="img-fluid" />
+            {/* <img src={laptopImg} alt="about" className="img-fluid" /> */}
           </Col>
         </Row>
 
