@@ -8,6 +8,7 @@ import blog from "../../Assets/Projects/blog.png";
 import img from "../../Assets/Projects/imagecomp.png";
 import pb from "../../Assets/Projects/phonebook.png";
 import em from "../../Assets/Projects/employeeMaster.png"
+import edv from "../../Assets/Projects/eduverse.png";
 
 function Projects() {
   return (
@@ -19,6 +20,16 @@ function Projects() {
         </h1>
         <p style={{ color: "white" }}>These are a few projects I've worked.</p>
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={edv}
+              isBlog={false}
+              title="Edu-Verse"
+              description="• Built and deployed EduVerse, a full-stack educational platform using .NET Core 8, EF Core, Angular 18, and Azure services.Integrated Azure AD B2C for authentication and used Azure Functions for role-based authorization and claims.Set up CI/CD pipelines in Azure DevOps with YAML files, private agent pools, build artifacts, and release stages.Enabled Serilog logging, API health checks, Application Insights, and stored images using Azure Blob Storage."
+              demoLink="https://eduversebykashyap.azurewebsites.net/home"
+              ghLink="https://github.com/kashyap1807/EduVerseAngular"
+            />
+          </Col>
           <Col md={4} className="project-card">
             <ProjectCard
               imgPath={pb}
