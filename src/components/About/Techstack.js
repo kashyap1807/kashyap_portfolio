@@ -66,7 +66,7 @@ function Techstack() {
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <img
-          src="https://cdn.simpleicons.org/css3/1572B6"
+          src="https://skillicons.dev/icons?i=css"
           height="80"
           alt="css3 logo"
         />

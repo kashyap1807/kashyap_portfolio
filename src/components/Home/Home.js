@@ -142,7 +142,8 @@ function Home() {
               alt="Git background small"
             /> */}
             <img
-              src="https://cdn.simpleicons.org/css3/1572B6"
+              // src="https://cdn.simpleicons.org/css3/1572B6"
+              src="https://skillicons.dev/icons?i=css"
               alt="CSS3 background"
             />
           </div>
