@@ -6,8 +6,8 @@ import mec from "../../Assets/Projects/mecommerce.png";
 import carr from "../../Assets/Projects/carent.png";
 import blog from "../../Assets/Projects/blog.png";
 import img from "../../Assets/Projects/imagecomp.png";
-import pb from "../../Assets/Projects/phonebook.png";
-import em from "../../Assets/Projects/employeeMaster.png"
+import pb from "../../Assets/Projects/phoneb.png";
+import em from "../../Assets/Projects/empdb.png"
 import edv from "../../Assets/Projects/eduverse.png";
 
 function Projects() {
