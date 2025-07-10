@@ -12,7 +12,7 @@ import edv from "../../Assets/Projects/eduverse.png";
 
 function Projects() {
   return (
-    <Container fluid className="project-section">
+    <Container fluid>
       <Particle />
       <Container>
         <h1 className="project-heading">

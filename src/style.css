@@ -263,7 +263,9 @@ button:focus {
   padding-bottom: 30px !important;
   padding-top: 30px !important;
   min-height: 100vh;
-  overflow: hidden;
+  overflow: hidden;   
+  background-image: var(--section-background-color) !important;
+  color: white !important;
 }
 
 .home-content {
@@ -325,6 +327,8 @@ button:focus {
   position: relative;
   padding-bottom: 70px !important;
   padding-top: 70px !important;
+  background-image: var(--section-background-color) !important;
+  color: white !important;
 }
 
 .home-about-description {
