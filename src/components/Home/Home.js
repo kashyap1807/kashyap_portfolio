@@ -196,7 +196,7 @@ function Home() {
                 </strong>
               </h1>
 
-              <div style={{ padding: 50, textAlign: "center" }}>
+              <div style={{ padding: 40, textAlign: "center" }}>
                 <Type />
               </div>
             </Col>
