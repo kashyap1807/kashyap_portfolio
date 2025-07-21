@@ -17,22 +17,31 @@ function Home2() {
               LET ME <span className="purple"> INTRODUCE </span> MY SELF
             </h1>
             <p className="home-about-body">
-              I'm a passionate developer with a penchant for crafting
-              exceptional digital experiences.
-              <br />
-              <br />
-              I've expanded my expertise into
               <i>
-                <b className="purple"> Full stack Development. </b>
+                <b className="purple">Full-stack developer</b> &nbsp;
               </i>
+              with 1+ year of experience building scalable web applications
+              using
               <br />
-              <br />
-              Enhancing my proficiency in &nbsp;
               <i>
                 <b className="purple">
-                  Azure, .NET Core, MVC, Angular, TypeScript & SSMS.{" "}
+                  ASP.NET Core, Angular, Azure, CI/CD pipelines & SQL.
                 </b>
               </i>
+              <br />
+              <br />
+              Strong focus on performance optimization, secure authentication,
+              and cloud-native deployment.
+              {/* <i>
+                <b className="purple"> Full stack Development. </b>
+              </i> */}
+              <br />
+              <br />
+              Proven ability to deliver robust features with &nbsp;
+              <i>
+                <b className="purple">high code quality</b>
+              </i>
+              &nbsp; and testing standards. &nbsp;
               <br />
               <br />
             </p>
