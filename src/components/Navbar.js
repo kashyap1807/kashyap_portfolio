@@ -62,10 +62,13 @@ function NavBar() {
             <Nav.Item>
               <Nav.Link
                 as={Link}
-                to="/about"
+                to="/experience"
                 onClick={() => updateExpanded(false)}
               >
-                <AiOutlineFundProjectionScreen style={{ marginBottom: "2px" }} /> Experience
+                <AiOutlineFundProjectionScreen
+                  style={{ marginBottom: "2px" }}
+                />{" "}
+                Experience
               </Nav.Link>
             </Nav.Item>
 
@@ -91,8 +94,6 @@ function NavBar() {
                 <CgFileDocument style={{ marginBottom: "2px" }} /> Resume
               </Nav.Link>
             </Nav.Item>
-
-            
           </Nav>
         </Navbar.Collapse>
       </Container>
