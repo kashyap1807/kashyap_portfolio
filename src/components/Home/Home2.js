@@ -17,8 +17,9 @@ function Home2() {
               LET ME <span className="purple"> INTRODUCE </span> MY SELF
             </h1>
             <p className="home-about-body">
+              Result-Driven &nbsp;
               <i>
-                <b className="purple">Full-stack developer</b> &nbsp;
+                <b className="purple">Full-stack Developer</b> &nbsp;
               </i>
               with 1.5+ year of experience building scalable web applications
               using
@@ -41,14 +42,16 @@ function Home2() {
               <i>
                 <b className="purple">high code quality</b>
               </i>
-              &nbsp; and testing standards. &nbsp;
+              &nbsp; and testing standards that driven &nbsp;
+              <i>
+                <b className="purple">Business Growth</b>
+              </i>
               <br />
               <br />
             </p>
           </Col>
         </Row>
         <Github />
-        
       </Container>
     </Container>
   );
