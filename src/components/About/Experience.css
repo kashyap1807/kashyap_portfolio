@@ -1,0 +1,31 @@
+.experience-card {
+  background-color: transparent;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  border-radius: 12px;
+  padding: 20px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+  color: #fff;
+}
+
+.experience-card:hover {
+  transform: scale(1.03);
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.35);
+}
+
+.experience-card h3 a {
+  color: #fff;
+  transition: color 0.3s ease;
+}
+
+.experience-card h3 a:hover {
+  color: #ddd;
+}
+
+.experience-card ul li {
+  line-height: 1.6;
+  font-size: 0.95rem;
+  color: #fff;
+  text-align: justify;   /* 🔥 ensures text is justified */
+  text-justify: inter-word; /* makes spacing cleaner */
+}

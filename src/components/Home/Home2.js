@@ -22,8 +22,7 @@ function Home2() {
                 <b className="purple">Full-stack Developer</b> &nbsp;
               </i>
               with 1.5+ year of experience building scalable web applications
-              using
-              <br />
+              using &nbsp;              
               <i>
                 <b className="purple">
                   ASP.NET Core, Angular, Azure, CI/CD pipelines & SQL.
