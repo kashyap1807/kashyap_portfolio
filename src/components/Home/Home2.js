@@ -21,7 +21,7 @@ function Home2() {
               <i>
                 <b className="purple">Full-stack Developer</b> &nbsp;
               </i>
-              with 1.5+ year of experience building scalable web applications
+              with 1.8+ year of experience building scalable web applications
               using &nbsp;              
               <i>
                 <b className="purple">
