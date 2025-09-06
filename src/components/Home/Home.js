@@ -4,6 +4,7 @@ import { Container, Row, Col } from "react-bootstrap";
 import Particle from "../Particle";
 import Home2 from "./Home2";
 import Type from "./Type";
+import KaasImg from "../../Assets/kaas_Icon.png";
 
 function Home() {
   return (
@@ -102,10 +103,10 @@ function Home() {
             />
           </div>
           <div className="floating-tech-icon tech-icon-15">
-            {/* <img
-              src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/visualstudio/visualstudio-plain.svg"
+            <img
+              src={KaasImg}
               alt="Visual Studio background"
-            /> */}
+            />
           </div>
           <div className="floating-tech-icon tech-icon-16">
             {/* <img
