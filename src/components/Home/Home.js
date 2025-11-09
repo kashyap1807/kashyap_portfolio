@@ -5,6 +5,7 @@ import Particle from "../Particle";
 import Home2 from "./Home2";
 import Type from "./Type";
 import KaasImg from "../../Assets/kaas_Icon.png";
+import HireMe from "./HireMe";
 
 function Home() {
   return (
@@ -103,10 +104,7 @@ function Home() {
             />
           </div>
           <div className="floating-tech-icon tech-icon-15">
-            <img
-              src={KaasImg}
-              alt="Visual Studio background"
-            />
+            <img src={KaasImg} alt="Visual Studio background" />
           </div>
           <div className="floating-tech-icon tech-icon-16">
             {/* <img
@@ -199,6 +197,9 @@ function Home() {
 
               <div style={{ padding: 40, textAlign: "center" }}>
                 <Type />
+              </div>
+              <div style={{ textAlign: "center" }}>
+                <HireMe />
               </div>
             </Col>
           </Row>
