@@ -4,9 +4,22 @@ import "./Experience.css"; // custom CSS for hover effect
 import PruLogo from "../../Assets/Projects/pruLogo.png";
 import CivicaLogo from "../../Assets/Projects/civicaLogo.jpg";
 import TCSLogo from "../../Assets/Projects/tcsLogo.jpg";
+import magnusmindLogo from "../../Assets/Projects/magnusmindLogo.jfif";
 
 function Experience() {
   const experiences = [
+    {
+      company: "MagnusMinds IT Solution",
+      url: "https://www.magnusminds.net/",
+      logo: magnusmindLogo,
+      details: [
+        "Developed full-stack enterprise applications using .NET Core backend services and Angular/React frontend, managing SQL Server (SSMS) and PostgreSQL databases, writing unit test cases to ensure code quality and reliability while following clean code standards and best practices across the technology stack.",
+        "Collaborated in Agile/SCRUM environment with sprints, successfully resolved Jira tickets through daily standups, client calls, and sprint planning with focus on dependency resolution and priority-based execution.",
+        "Contributed pull requests with comprehensive documentation, participating in peer code reviews with approval requirements and operating CI/CD pipelines through GitHub Actions and GitDevOps for successful deployments with Docker containerization across Dev and QA environments.",
+        "Test and validate APIs using Postman, monitoring cloud infrastructure through Azure Portal (servers, databases, network configurations) and collaborating with QA team to ensure system reliability and optimal performance.",
+        "Continuously expanding technical expertise in modern practices including .NET Aspire, gRPC and microservices architecture, demonstrating strong professional communication skills and eagerness to learn and adopt emerging technologies.",
+      ],
+    },
     {
       company: "Prudent Corporate Advisory Services Ltd.",
       url: "https://www.prudentcorporate.com/",

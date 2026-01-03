@@ -8,9 +8,11 @@ function Type() {
         strings: [
           "Full Stack Developer",
           "Azure . . .",
+          "Microservices . . .",
+          "Agile . . .",
           ".Net Core . . .",
           "Angular . . .",
-          "SQL . . ."
+          "SQL . . .",
         ],
         autoStart: true,
         loop: true,

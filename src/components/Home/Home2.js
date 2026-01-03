@@ -21,27 +21,32 @@ function Home2() {
               <i>
                 <b className="purple">Full-stack Developer</b> &nbsp;
               </i>
-              with 1.8+ year of experience building scalable web applications
-              using &nbsp;              
+              with 2+ year of experience working on enterprise-level
+              applications using &nbsp;
               <i>
                 <b className="purple">
-                  ASP.NET Core, Angular, Azure, CI/CD pipelines & SQL.
+                  .NET Core, Angular, Azure, SQL, Postgresql, CI/CD pipelines &
+                  Agile Methodology
                 </b>
               </i>
               <br />
               <br />
-              Strong focus on performance optimization, secure authentication,
-              and cloud-native deployment.
+              with a focus on microservices architecture, secure authentication
+              and cloud infrastructure.
               {/* <i>
                 <b className="purple"> Full stack Development. </b>
               </i> */}
               <br />
               <br />
-              Proven ability to deliver robust features with &nbsp;
-              <i>
+              &nbsp;
+              {/* <i>
                 <b className="purple">high code quality</b>
-              </i>
-              &nbsp; and testing standards that driven &nbsp;
+              </i> */}
+              &nbsp; Contributing to projects that emphasize clean code,
+              collaborative development, and robust deployment processes that
+              driven
+              <br />
+              &nbsp;
               <i>
                 <b className="purple">Business Growth</b>
               </i>
