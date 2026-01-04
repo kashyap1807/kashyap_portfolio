@@ -31,7 +31,7 @@ function Home2() {
               </i>
               <br />
               <br />
-              with a focus on microservices architecture, secure authentication
+              with a focus on microservices architecture, performance optimization,
               and cloud infrastructure.
               {/* <i>
                 <b className="purple"> Full stack Development. </b>
