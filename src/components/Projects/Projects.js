@@ -9,6 +9,7 @@ import img from "../../Assets/Projects/imagecomp.png";
 import pb from "../../Assets/Projects/phoneb.png";
 import em from "../../Assets/Projects/empdb.png"
 import edv from "../../Assets/Projects/eduverse.png";
+import fbp from "../../Assets/Projects/fundzbazarPic.png";
 
 function Projects() {
   return (
@@ -22,6 +23,18 @@ function Projects() {
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
           <Col md={4} className="project-card">
             <ProjectCard
+              imgPath={fbp}
+              isBlog={false}
+              title="FundzBazar"
+              description="•Contributed to FundzBazar, a digital investment & wealth management platform with 2M+ users, offering mutual funds, equities, bonds, FDs, and insurance products.
+•Developed and maintained the Insurance Module include Term Life & Investment Insurance plans for ICICI (Smart Life/Life Plus & Platinum), enabling seamless digital product availability for customers and advisors.
+•Worked on a full-stack, end-to-end digital insurance workflow (Quotation, Add On, Proposer, Medical History, Nominee, Address, KYC, Docs Upload, Declaration), reducing manual intervention by 35%."
+              demoLink="https://www.fundzbazar.com/"
+              // ghLink="https://github.com/kashyap1807/EduVerseAngular"
+            />
+          </Col>
+          <Col md={4} className="project-card">
+            <ProjectCard
               imgPath={edv}
               isBlog={false}
               title="Edu-Verse"
@@ -32,13 +45,21 @@ function Projects() {
           </Col>
           <Col md={4} className="project-card">
             <ProjectCard
+              imgPath={mec}
+              isBlog={false}
+              title="MEcommerce"
+              description="MEcommerce is e-commerce platform designed for buying products. Use Node/Express.js as a backend, for frontend use React.js.also implemented JWT authentication , Braintree payment gateway And SEO."
+              ghLink="https://github.com/kashyap1807/M_Ecommerce"
+              demoLink="https://m-ecommerce-frontend.onrender.com/"
+            />
+          </Col>
+          <Col md={4} className="project-card">
+            <ProjectCard
               imgPath={pb}
               isBlog={false}
               title="PhoneBook"
               description="• Developed contacts management app using ASP.NET, MVC & Angular 16, Test it using xUnit and Jasmin Karma. 
-•        Implemented features such as CRUD operation, Searching, Sorting, Pagination, Authentication and Authorization. Profile Management, use store procedure for reports.
-"
-              ghLink="https://github.com/kashyap1807/PhonebookAppMain"
+•        Implemented features such as CRUD operation, Searching, Sorting, Pagination, Authentication and Authorization. Profile Management, use store procedure for reports."
             />
           </Col>
           <Col md={4} className="project-card">
@@ -47,19 +68,7 @@ function Projects() {
               isBlog={false}
               title="EmployeeMaster"
               description="• Worked on update employee component and UI Designing part of application.
-•         Set up business logic in API for basic on Salary. Check all API & front-end validations. 
-"
-              ghLink="https://github.com/kashyap1807/CivicaEmployeeMaster"
-            />
-          </Col>
-          <Col md={4} className="project-card">
-            <ProjectCard
-              imgPath={mec}
-              isBlog={false}
-              title="MEcommerce"
-              description="MEcommerce is e-commerce platform designed for buying products. Use Node/Express.js as a backend, for frontend use React.js.also implemented JWT authentication , Braintree payment gateway And SEO."
-              ghLink="https://github.com/kashyap1807/M_Ecommerce"
-              demoLink="https://m-ecommerce-frontend.onrender.com/"
+•         Set up business logic in API for basic on Salary. Check all API & front-end validations."
             />
           </Col>
 
