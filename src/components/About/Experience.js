@@ -13,11 +13,12 @@ function Experience() {
       url: "https://www.magnusminds.net/",
       logo: magnusmindLogo,
       details: [
-        "Developed full-stack enterprise applications using .NET Core backend services and Angular/React frontend, managing SQL Server (SSMS) and PostgreSQL databases, writing unit test cases to ensure code quality and reliability while following clean code standards and best practices across the technology stack.",
-        "Collaborated in Agile/SCRUM environment with sprints, successfully resolved Jira tickets through daily standups, client calls, and sprint planning with focus on dependency resolution and priority-based execution.",
-        "Contributed pull requests with comprehensive documentation, participating in peer code reviews with approval requirements and operating CI/CD pipelines through GitHub Actions and GitDevOps for successful deployments with Docker containerization across Dev and QA environments.",
-        "Test and validate APIs using Postman, monitoring cloud infrastructure through Azure Portal (servers, databases, network configurations) and collaborating with QA team to ensure system reliability and optimal performance.",
-        "Continuously expanding technical expertise in modern practices including .NET Aspire, gRPC and microservices architecture, demonstrating strong professional communication skills and eagerness to learn and adopt emerging technologies.",
+        "Developed and maintained enterprise insurance, enrollment, billing, client, and policy management applications supporting global operations across 40+ countries and serving thousands of enterprise clients.",
+        "Delivered 35+ production defects, enhancements, and business-critical features for insurance application, managing the complete software development lifecycle from requirement analysis, development to deployment and production validation.",
+        "Optimized SQL Server stored procedures, views, and reporting components using query refactoring, indexing, temporary tables, locking optimizations, improving query performance by up to 40% and reducing database contention.",
+        "Authored and deployed 75+ pull requests using Azure DevOps, Git, and enterprise branching strategies while collaborating with a 14-member cross-functional Agile team of developers, QA engineers, business analysts, product owners, and engineering managers.",
+        "Supported weekly production releases and monthly major deployments across multiple environments (DEV, QA, UAT, Production), ensuring reliable delivery of business-critical enhancements and system stability.",
+        "Adopted AI-assisted software development practices using GitHub Copilot, ChatGPT, and Claude to accelerate feature development, production troubleshooting, performance optimization and improving productivity by an estimated 20 to 30%.",
       ],
     },
     {
@@ -25,7 +26,7 @@ function Experience() {
       url: "https://www.prudentcorporate.com/",
       logo: PruLogo,
       details: [
-        "Developed and maintained full-stack features and resolved bugs for FundzBazar, a production app serving 1.9+ million users, implementing comprehensive insurance modules that increased user engagement by 10%.",
+        "Implemented and enhanced full-stack features and resolved bugs for FundzBazar, a production app serving 1.9+ million users, implementing comprehensive insurance modules that increased user engagement by 10%.",
         "Architected 16+ custom reports with advanced filtering capabilities for PrudentPBD (MVC) & Admin (Desktop App), improving operational efficiency for 1000+ employees and reducing manual data processing time by 60%.",
         "Optimized database performance by implementing efficient stored procedures and query optimization, resulting in 50% faster page load and 30% reduction in server response time.",
         "Collaborated in agile sprints using ASP.NET Core, Angular, MVC, and SSMS, delivering 20+ features on schedule while maintaining a 95% code review approval rate.",
@@ -46,8 +47,10 @@ function Experience() {
       url: "https://www.tcs.com/",
       logo: TCSLogo,
       details: [
-        "Promoted TCS events, programs, and initiatives to students, and shared information and updates provided by TCS.",
-        "Acted as a bridge between students and TCS.",
+        "Promoted TCS events, programs, and initiatives to Bvm college students and the wider community.",
+        "Shared information and updates provided by TCS, keeping the audience informed.",
+        "Assisted in organizing and facilitating campus placement recruitment drives.",
+        "Acted as a bridge between Bvm students and TCS, addressing inquiries and fostering engagement.",
       ],
     },
   ];

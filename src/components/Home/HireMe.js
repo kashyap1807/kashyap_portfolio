@@ -71,7 +71,7 @@ function HireMe() {
           e.target.style.color = "#00e5ff";
         }}
       >
-        Hire Me!
+        Connect With Me
       </Button>
 
       <Modal show={show} onHide={handleClose} centered>

@@ -19,9 +19,9 @@ function Home2() {
             <p className="home-about-body">
               Result-Driven &nbsp;
               <i>
-                <b className="purple">Full-stack Developer</b> &nbsp;
+                <b className="purple">Software Engineer</b> &nbsp;
               </i>
-              with 2+ year of experience working on enterprise-level
+              with 2.5+ year of experience building on enterprise-scale
               applications using &nbsp;
               <i>
                 <b className="purple">
@@ -31,11 +31,11 @@ function Home2() {
               </i>
               <br />
               <br />
-              with a focus on microservices architecture, performance optimization,
-              and cloud infrastructure.
-              {/* <i>
-                <b className="purple"> Full stack Development. </b>
-              </i> */}
+              with a focus on microservices architecture, performance
+              optimization, cloud infrastructure and &nbsp;
+              <i>
+                <b className="purple"> AI-assisted development. </b>
+              </i>
               <br />
               <br />
               &nbsp;

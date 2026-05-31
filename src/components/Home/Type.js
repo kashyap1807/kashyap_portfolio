@@ -6,13 +6,15 @@ function Type() {
     <Typewriter
       options={{
         strings: [
-          "Full Stack Developer",
-          "Azure . . .",
-          "Microservices . . .",
-          "Agile . . .",
-          ".Net Core . . .",
-          "Angular . . .",
-          "SQL . . .",
+          "Full Stack Developer. . .",
+          "Software Engineer. . .",
+          "Azure. . .",
+          "Microservices. . .",
+          "Agile. . .",
+          ".Net Core. . .",
+          "Angular. . .",
+          "SQL. . .",
+          "AI-Assisted Developer. . .",
         ],
         autoStart: true,
         loop: true,
